@@ -18,7 +18,7 @@ clear
 	        elif [ $password = Exec321 ] ; then
 			echo " Executive Logins "
 			echo " "
-			echo 
+			echo " "
 		elif [ $password = Tech321 ] ; then
 			echo " IT Psswords "
 		elif [ $password = Operation ] ; then
