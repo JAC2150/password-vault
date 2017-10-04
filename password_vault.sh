@@ -2,9 +2,9 @@
 
 clear
 
-	read -p "Enter the password : " password
+	read -p "Enter the deparment password : " password
 
-		if [ $password = Fin123 ] ; then
+		if [ $password = fin123 ] ; then
 			echo "	Finace Logins "
 			echo " "
 			echo "Bank     | Username : 38ufh2 | Passwords : 98d258 "
@@ -15,7 +15,7 @@ clear
 			echo "-------------------------------------------------- "
 			echo "HR       | Username : 7ft2h2 | Passwords : 9dght2 "
 	        
-		elif [ $password = Exec123 ] ; then
+		elif [ $password = exec123 ] ; then
 			echo "	Executive Logins "
 			echo " "
 			echo "Business    | Username : td8233 | Passwords : 23dok2 "
@@ -26,7 +26,7 @@ clear
 		       	echo "----------------------------------------------------- "
 			echo "Contacts    | Username : 38dnh7 | Passwords : 09dyu1 "
 		
-		elif [ $password = Tech123 ] ; then
+		elif [ $password = tech123 ] ; then
 			echo "	IT Logins "
 			echo " "
 			echo "Web Server | Username : asd33h | Passwords : 87d52y "
@@ -37,7 +37,7 @@ clear
 			echo "---------------------------------------------------- "
 			echo "Email      | Username : 12ed89 | Passwords : wd2r2e "
 		
-		elif [ $password = Ops123 ] ; then
+		elif [ $password = ops123 ] ; then
 			echo "	Operation Logins "
 			echo " "
 			echo "Building    | Username : 78rot4 | Passwords : i27d23 "
@@ -47,6 +47,9 @@ clear
 			echo "Electricity | Username : 0d6y2q | Passwords : 36dwg2 "
 			echo "----------------------------------------------------- "
 			echo "Emergency   | Username : 962hw1 | Passwords : 78d32n "
+
+		else ; then 
+			echo "Wrong password, good bye."
 		fi
 
 
