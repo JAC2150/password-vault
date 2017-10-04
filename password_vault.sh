@@ -6,7 +6,7 @@ clear
 
 		if [ $password = fin123 ] ; then
 			echo " "
-			echo "	Finace Logins "
+			echo "			Finace Logins "
 			echo " "
 			echo "Bank     | Username : 38ufh2 | Passwords : 98d258 "
 			echo "-------------------------------------------------- "
@@ -19,7 +19,7 @@ clear
 	        
 		elif [ $password = exec123 ] ; then
 			echo " "
-			echo "	Executive Logins "
+			echo "			Executive Logins "
 			echo " "
 			echo "Business    | Username : td8233 | Passwords : 23dok2 "
 			echo "----------------------------------------------------- "
@@ -32,7 +32,7 @@ clear
 		
 		elif [ $password = tech123 ] ; then
 			echo " "
-			echo "	IT Logins "
+			echo "			IT Logins "
 			echo " "
 			echo "Web Server | Username : asd33h | Passwords : 87d52y "
 			echo "---------------------------------------------------- "
@@ -45,7 +45,7 @@ clear
 		
 		elif [ $password = ops123 ] ; then
 			echo " "
-			echo "	Operation Logins "
+			echo "			Operation Logins "
 			echo " "
 			echo "Building    | Username : 78rot4 | Passwords : i27d23 "
 			echo "----------------------------------------------------- "
