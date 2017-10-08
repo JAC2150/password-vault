@@ -6,7 +6,7 @@ clear
 
 		if [ $password = fin123 ] ; then
 			echo " "
-			echo "Finace Logins "
+			echo "Finance Logins "
 			echo " "
 			echo "Bank     | Username : 38ufh2 | Passwords : 98d258 "
 			echo "-------------------------------------------------- "
